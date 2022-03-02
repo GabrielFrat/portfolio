@@ -1,58 +1,60 @@
-body {
-    margin: 0;
-    background-color: #000000;
-    color: white;
+@media(min-width: 1000px){
+    body {
+        margin: 0;
+        background-color: #000000;
+        color: white;
+    }
+    
+    
+    .menu {
+        position: relative;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        background-color: #00b4fc;
+        text-decoration: none;
+    }
+    
+    
+    .menu ul li {
+        padding: 40px;
+        display: inline;
+        list-style-type: none;
+    }
+    
+    
+    .menu ul li {
+        margin: 0;
+        height: 100%;
+    }
+    
+    .menu a {
+        height: 100%;
+        width: 100%;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .menu li:hover{
+        cursor: pointer;
+        background-color: #17f9ff;
+    }
+    
+    #foto{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .social {
+        margin-left: 500px;
+    }
+    
+    .home {
+        height: 15px;
+        width: 15px;
+    }
+    
 }
-
-
-.menu {
-    position: relative;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    margin: 0;
-    background-color: #00b4fc;
-    text-decoration: none;
-}
-
-
-.menu ul li {
-    padding: 40px;
-    display: inline;
-    list-style-type: none;
-}
-
-
-.menu ul li {
-    margin: 0;
-    height: 100%;
-}
-
-.menu a {
-    height: 100%;
-    width: 100%;
-    color: white;
-    text-decoration: none;
-}
-
-.menu li:hover{
-    cursor: pointer;
-    background-color: #17f9ff;
-}
-
-#foto{
-    height: 40px;
-    width: 40px;
-}
-
-.social {
-    margin-left: 500px;
-}
-
-.home {
-    height: 15px;
-    width: 15px;
-}
-
 
 

@@ -1,0 +1,23 @@
+@media(max-width: 1000px){
+    body{
+        color: white;
+        margin: 0;
+        background-color: black;
+        text-align: center;
+    }
+    
+    .body-desktop{
+        display: none;
+    }
+
+    .manutencao {
+        display: block;
+    }
+}
+
+@media(min-width: 1000px) {
+    .manutencao{
+        color: white;
+        display: none;
+    }
+}

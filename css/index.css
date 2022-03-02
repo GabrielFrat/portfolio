@@ -1,258 +1,260 @@
-.content-box {
-    width: 100%;
-    margin: 0;
-    position: relative;
-}
-
-.oppening {
-    position: relative;
-    display: block;
-    margin: 0;
-    width: 100%;
-    height: 600px;
-    background-image: url(../imgs/pexels-negative-space-169573.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.content-text {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-.code {
-    position: relative;
-    font-family: monospace;
-    color: white;
-    font-size: 20px;
-    height: 300px;
-    width: 800px;
-    margin-left: 200px;
-    margin-top: 100px;
-}
-
-.content-btn {
-    width: 100%;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.445);
-    margin-top: 90px;
-}
-
-.btn {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-
-}
-
-.img-btn {
-    opacity: 100%;
-}
-
-.btn:hover{
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 3px;
-}
-
-
-.content-about{
-    width: 100%;
-    height: 700px;
-    position: relative;
-    background-color: rgb(0, 0, 0);
-}
-
-.content-skills{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 100%;
-    height: 700px;
-    position: relative;
-    display: block;
-}
-
-.content-contato{
-    width: 100%;
-    height: 300px;
-    position: relative;
-    background-color: #000000;
-    color: rgb(255, 255, 255);
-}
-
-.foto-perfil {
-    position: absolute;
-    height: 500px;
-    width: 250px;
-    margin-top: 50px;
-    border-radius: 10px;
-}
-
-.fotoperfil {
-    position: relative;
-    margin-left: 200px;
+@media(min-width: 1000px){
+    .content-box {
+        width: 100%;
+        margin: 0;
+        position: relative;
+    }
     
-}
-
-.about-gb {
-    position: relative;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    float: right;
-    width: 500px;
-    color: rgb(247, 247, 247);
-    margin-right: 300px;
-    margin-top: 30px;
-}
-
-.img-next {
-    height: 20px;
-    width: 20px;
-}
-
-.btn-about{
-    position: absolute;
-    float: right;
-    margin-left: 85%;
-    margin-top: 600px;
-    text-align: center;
-}
-
-.btn-about a {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-}
-
-.btn-btn-about {
-    background-color: transparent;
-    border: none;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
-}
-
-.skills-cont {
-    position: absolute;
-    width: 600px;
-    margin-top: 40px;
-    margin-left: 100px;
-}
-
-.container {
-    float: right;
-    margin-top: 1px;
-    margin-left: 6px;
-    border-radius: 10px;
-    width: 80%; /* Full width */
-    background-color: #ddd; /* Grey background */
-  }
-  
-  .skills {
-    border-radius: 10px;
-    text-align: right; /* Right-align text */
-    padding-top: 10px; /* Add top padding */
-    padding-bottom: 10px; /* Add bottom padding */
-    color: white; /* White text color */
-  }
-
-  .html {width: 90%; background-color: #c79452;}
-  .css {width: 85%; background-color: #2196F3;} /* Blue */
-  .js {width: 60%; background-color: #b3d324;} /* Red */
-  .python {width: 95%; background-color: #307dbb;} /* Blue */
-  .kotlin {width: 80%; background-color: #ec9736;} /* Red */
-  .C {width: 90%; background-color: #2225b1;}
-
-.skills-line {
-    width: 100%;
-    display: inline;
-    position: relative;
-    margin-top: 20px;
-    padding: 30px;
-}
-
-.other-skills {
-    float: right;
-    width: 500px;
-    margin-right: 50px;
-    margin-top: 25px;
-}
-
-
-.buttons {
-    text-align: center;
-    float: right;
-    margin-top: 550px;
-}
-
-.btn-contato {
-    background-color: transparent;
-    border: 2px solid red;
-    border-radius: 3px;
-    height: 50px;
-    width: 120px;
-    cursor: pointer;
-    margin-right: 10px;
-}
-
-.btn-contato a{
-    color: white;
-    text-decoration: none;
-}
-
-.btn-cv a{
-    color: white;
-    text-decoration: none;
-}
-
-
-.btn-contato:hover{
-    background-color: rgba(255, 0, 0, 0.37);
-}
-
-.btn-cv {
-    background-color: transparent;
-    border: 2px solid rgb(44, 53, 177);
-    border-radius: 3px;
-    height: 50px;
-    width: 120px;
-    cursor: pointer;
-    color: white;
-}
-
-.btn-cv:hover{
-    background-color: rgba(44, 53, 177, 0.37);
-}
-
-.contato {
-    width: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.content-whats-outlook {
-    position: relative;
-    display: inline-block;
-    width: 400px;
-}
-
-.outlook {
-    float: right;
-    position: relative;
-    width: 45%;
-}
-
-.whats {
-    position: relative;
-    width: 45%;
-    float: left;
-}
-
-hr {
-    width: 90%;
-}
-
-.warning {
-    width: 100%;
-    text-align: center;
+    .oppening {
+        position: relative;
+        display: block;
+        margin: 0;
+        width: 100%;
+        height: 600px;
+        background-image: url(../imgs/pexels-negative-space-169573.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .content-text {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .code {
+        position: relative;
+        font-family: monospace;
+        color: white;
+        font-size: 20px;
+        height: 300px;
+        width: 800px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    
+    .content-btn {
+        width: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.445);
+        margin-top: 90px;
+    }
+    
+    .btn {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    
+    }
+    
+    .img-btn {
+        opacity: 100%;
+    }
+    
+    .btn:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 3px;
+    }
+    
+    
+    .content-about{
+        width: 100%;
+        height: 700px;
+        position: relative;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .content-skills{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 100%;
+        height: 700px;
+        position: relative;
+        display: block;
+    }
+    
+    .content-contato{
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background-color: #000000;
+        color: rgb(255, 255, 255);
+    }
+    
+    .foto-perfil {
+        position: absolute;
+        height: 500px;
+        width: 250px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+    
+    .fotoperfil {
+        position: relative;
+        margin-left: 200px;
+        
+    }
+    
+    .about-gb {
+        position: relative;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        float: right;
+        width: 500px;
+        color: rgb(247, 247, 247);
+        margin-right: 300px;
+        margin-top: 30px;
+    }
+    
+    .img-next {
+        height: 20px;
+        width: 20px;
+    }
+    
+    .btn-about{
+        position: absolute;
+        float: right;
+        margin-left: 85%;
+        margin-top: 600px;
+        text-align: center;
+    }
+    
+    .btn-about a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+    
+    .btn-btn-about {
+        background-color: transparent;
+        border: none;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .skills-cont {
+        position: absolute;
+        width: 600px;
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+    
+    .container {
+        float: right;
+        margin-top: 1px;
+        margin-left: 6px;
+        border-radius: 10px;
+        width: 80%; /* Full width */
+        background-color: #ddd; /* Grey background */
+      }
+      
+      .skills {
+        border-radius: 10px;
+        text-align: right; /* Right-align text */
+        padding-top: 10px; /* Add top padding */
+        padding-bottom: 10px; /* Add bottom padding */
+        color: white; /* White text color */
+      }
+    
+      .html {width: 90%; background-color: #c79452;}
+      .css {width: 85%; background-color: #2196F3;} /* Blue */
+      .js {width: 60%; background-color: #b3d324;} /* Red */
+      .python {width: 95%; background-color: #307dbb;} /* Blue */
+      .kotlin {width: 80%; background-color: #ec9736;} /* Red */
+      .C {width: 90%; background-color: #2225b1;}
+    
+    .skills-line {
+        width: 100%;
+        display: inline;
+        position: relative;
+        margin-top: 20px;
+        padding: 30px;
+    }
+    
+    .other-skills {
+        float: right;
+        width: 500px;
+        margin-right: 50px;
+        margin-top: 25px;
+    }
+    
+    
+    .buttons {
+        text-align: center;
+        float: right;
+        margin-top: 550px;
+    }
+    
+    .btn-contato {
+        background-color: transparent;
+        border: 2px solid red;
+        border-radius: 3px;
+        height: 50px;
+        width: 120px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    
+    .btn-contato a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .btn-cv a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    
+    .btn-contato:hover{
+        background-color: rgba(255, 0, 0, 0.37);
+    }
+    
+    .btn-cv {
+        background-color: transparent;
+        border: 2px solid rgb(44, 53, 177);
+        border-radius: 3px;
+        height: 50px;
+        width: 120px;
+        cursor: pointer;
+        color: white;
+    }
+    
+    .btn-cv:hover{
+        background-color: rgba(44, 53, 177, 0.37);
+    }
+    
+    .contato {
+        width: 100%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .content-whats-outlook {
+        position: relative;
+        display: inline-block;
+        width: 400px;
+    }
+    
+    .outlook {
+        float: right;
+        position: relative;
+        width: 45%;
+    }
+    
+    .whats {
+        position: relative;
+        width: 45%;
+        float: left;
+    }
+    
+    hr {
+        width: 90%;
+    }
+    
+    .warning {
+        width: 100%;
+        text-align: center;
+    }
 }
