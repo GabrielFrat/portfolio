@@ -15,25 +15,30 @@
         background-color: #00b4fc;
         text-decoration: none;
     }
-    
-    
-    .menu ul li {
-        padding: 40px;
-        display: inline;
-        list-style-type: none;
+
+    .menu ul {
+        display: flex;
+        height: 100px;
+        width: 600px;
     }
-    
     
     .menu ul li {
         margin: 0;
-        height: 100%;
+        position: relative;
+        height: 100px;
+        width: 150px;
+        list-style-type: none;
     }
-    
-    .menu a {
+
+    .menu li a {
+        margin: 0;
+        display: flex;
         height: 100%;
         width: 100%;
         color: white;
         text-decoration: none;
+        align-items: center;
+        justify-content: center;
     }
     
     .menu li:hover{
@@ -47,6 +52,7 @@
     }
     
     .social {
+        display: inline;
         margin-left: 500px;
     }
     

@@ -98,6 +98,7 @@
     .about-gb {
         position: relative;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        justify-content: unsafe;
         float: right;
         width: 500px;
         color: rgb(247, 247, 247);
